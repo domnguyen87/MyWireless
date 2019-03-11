@@ -25,7 +25,7 @@ class Home extends React.Component {
                                         <img src="images/slider-fullscreen-slide-1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" className="rev-slidebg" />
 
                                         {/* <!-- Transparent Background --> */}
-                                        <div className="tp-caption dark-translucent-bg"
+                                        {/* <div className="tp-caption dark-translucent-bg"
                                             data-x="center"
                                             data-y="center"
                                             data-start="0"
@@ -34,7 +34,7 @@ class Home extends React.Component {
                                             data-transform_out="o:0;s:600;"
                                             data-width="5000"
                                             data-height="5000">
-                                        </div>
+                                        </div> */}
 
                                         {/* <!-- LAYER NR. 1 --> */}
                                         <div className="tp-caption xlarge_white"
@@ -50,15 +50,17 @@ class Home extends React.Component {
                                             data-transform_in="x:[50%];o:0;s:600;e:Power4.easeInOut;"
                                             data-transform_out="x:[-50%];o:0;s:200;e:Power2.easeInOut;"
                                             data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Inspiration
-                            </div>
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Free Diagnostics
+                                        </div>
 
                                         {/* <!-- LAYER NR. 2 --> */}
                                         <div className="tp-caption xlarge_white"
                                             data-x="center"
                                             data-y="110"
-                                            data-start="3100"
-                                            data-end="4600"
+                                            // data-start="3100"
+                                            // data-end="4600"
+                                            data-start="3500"
+                                            data-end="5000"
                                             data-splitin="chars"
                                             data-splitout="chars"
                                             data-elementdelay="0.1"
@@ -67,15 +69,15 @@ class Home extends React.Component {
                                             data-transform_in="x:[-50%];o:0;s:600;e:Power4.easeInOut;"
                                             data-transform_out="x:[-50%];o:0;s:200;e:Power2.easeInOut;"
                                             data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Innovation
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Low Price
                             </div>
 
                                         {/* <!-- LAYER NR. 3 --> */}
                                         <div className="tp-caption xlarge_white"
                                             data-x="center"
                                             data-y="110"
-                                            data-start="5200"
-                                            data-end="6700"
+                                            data-start="5600"
+                                            data-end="7100"
                                             data-splitin="chars"
                                             data-splitout="chars"
                                             data-elementdelay="0.1"
@@ -84,20 +86,19 @@ class Home extends React.Component {
                                             data-transform_in="x:[50%];o:0;s:600;e:Power4.easeInOut;"
                                             data-transform_out="x:0;y:[-50%];o:0;s:200;e:Power2.easeInOut;"
                                             data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Success
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Quick Turnaround
                             </div>
 
                                         {/* <!-- LAYER NR. 4 --> */}
                                         <div className="tp-caption large_white"
                                             data-x="center"
                                             data-y="110"
-                                            data-start="7000"
+                                            data-start="9100"
                                             data-transform_idle="o:1;"
                                             data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
                                             data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
                                             data-mask_in="x:0px;y:[-100%];s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span className="logo-font">The <span className="text-default">Project</span></span> <br /> Powerful Bootstrap Template
-                            </div>
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span className="logo-font">My <span className="text-default">Wireless</span></span> <br /> Cell Phone Repair and Shop</div>
 
 
                                         {/* <!-- LAYER NR. 5 --> */}
@@ -106,7 +107,7 @@ class Home extends React.Component {
                                             data-y="250"
                                             data-hoffset="-232"
                                             data-start="1000"
-                                            data-end="6200"
+                                            data-end="9100"
                                             data-transform_idle="o:1;"
                                             data-transform_in="x:[50%];y:0;o:0;s:700;e:Power4.easeInOut;"
                                             data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span className="icon large circle"><i className="circle fa fa-lightbulb-o"></i></span>
@@ -116,8 +117,8 @@ class Home extends React.Component {
                                         <div className="tp-caption"
                                             data-x="center"
                                             data-y="250"
-                                            data-start="3100"
-                                            data-end="6200"
+                                            data-start="3500"
+                                            data-end="9100"
                                             data-transform_idle="o:1;"
                                             data-transform_in="x:[-50%];y:0;o:0;s:700;e:Power4.easeInOut;"
                                             data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span className="icon large circle"><i className="circle fa fa-rotate-left"></i></span>
@@ -128,8 +129,8 @@ class Home extends React.Component {
                                             data-x="center"
                                             data-y="250"
                                             data-hoffset="232"
-                                            data-start="5200"
-                                            data-end="6200"
+                                            data-start="5600"
+                                            data-end="9100"
                                             data-transform_idle="o:1;"
                                             data-transform_in="x:[50%];y:0;o:0;s:700;e:Power4.easeInOut;"
                                             data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span className="icon large circle"><i className="circle fa fa-line-chart"></i></span>
@@ -139,7 +140,7 @@ class Home extends React.Component {
                                         <div className="tp-caption tp-resizeme large_white"
                                             data-x="center"
                                             data-y="210"
-                                            data-start="6400"
+                                            data-start="9100"
                                             data-end="10000"
                                             data-transform_idle="o:1;"
                                             data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
@@ -150,13 +151,12 @@ class Home extends React.Component {
                                         <div className="tp-caption medium_white"
                                             data-x="center"
                                             data-y="250"
-                                            data-start="6800"
+                                            data-start="9100"
                                             data-transform_idle="o:1;"
                                             data-transform_in="y:[-50%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
                                             data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
                                             data-mask_in="x:0px;y:[-50%];s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br /> tenetur fugiat dolorum sapiente eligendi...
-                            </div>
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br /> tenetur fugiat dolorum sapiente eligendi...</div>
 
                                         {/* <!-- LAYER NR. 10 --> */}
                                         <div className="tp-caption"
@@ -169,7 +169,7 @@ class Home extends React.Component {
                                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                                             data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-                                            <a href="#page-start" className="btn btn-lg moving smooth-scroll"><i className="fa fa-angle-down"></i><i className="fa fa-angle-down"></i><i className="fa          fa-angle-down"></i></a>
+                                            <a href="#page-start" className="btn btn-lg moving smooth-scroll"><i className="fa fa-angle-down"></i><i className="fa fa-angle-down"></i><i className="fa fa-angle-down"></i></a>
                                         </div>
                                     </li>
                                     {/* <!-- slide 1 end --> */}
@@ -202,8 +202,7 @@ class Home extends React.Component {
                                             data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
                                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span className="logo-font">The Project</span> <br /> Premium HTML5 Bootstrap Theme
-                        </div>
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span className="logo-font">My Wireless</span> <br /> Cell Phone Repair, Cases, Screen Protectors, Accessories </div>
 
                                         {/* <!-- LAYER NR. 2 --> */}
                                         <div className="tp-caption medium_white"
@@ -215,7 +214,7 @@ class Home extends React.Component {
                                             data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
                                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">100% Responsive <span className="icon default-bg circle small hidden-xs"><i className="fa fa-laptop"></i></span>
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">LifeTime Warranty <span className="icon default-bg circle small hidden-xs"><i className="fa fa-laptop"></i></span>
                                         </div>
 
                                         {/* <!-- LAYER NR. 3 --> */}
@@ -228,7 +227,7 @@ class Home extends React.Component {
                                             data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
                                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Bootstrap Based <span className="icon default-bg circle small hidden-xs"><i className="fa fa-check"></i></span>
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">1 Hour Repair Service <span className="icon default-bg circle small hidden-xs"><i className="fa fa-check"></i></span>
                                         </div>
 
                                         {/* <!-- LAYER NR. 4 --> */}
@@ -241,7 +240,7 @@ class Home extends React.Component {
                                             data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
                                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Packed Full of Features <span className="icon default-bg circle small hidden-xs"><i className="fa fa-gift"></i></        span>
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Repair Experts <span className="icon default-bg circle small hidden-xs"><i className="fa fa-gift"></i></span>
                                         </div>
 
                                         {/* <!-- LAYER NR. 5 --> */}
@@ -254,25 +253,11 @@ class Home extends React.Component {
                                             data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
                                             data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
                                             data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Very Elegant Design <span className="icon default-bg circle small hidden-xs"><i className="fa        fa-hourglass-half"></i></span>
-                                        </div>
-
-                                        {/* <!-- LAYER NR. 6 --> */}
-                                        <div className="tp-caption small_white"
-                                            data-x="right"
-                                            data-y="490"
-                                            data-speed="500"
-                                            data-start="2000"
-                                            data-transform_idle="o:1;"
-                                            data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-                                            data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-                                            data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="#" className="btn btn-default btn-lg btn-animated">Purchase <i className="fa fa-cart-arrow-down"></i></a>
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Rigorously Verified <span className="icon default-bg circle small hidden-xs"><i className="fa fa-hourglass-half"></i></span>
                                         </div>
                                     </li>
                                     {/* <!-- slide 2 end --> */}
                                 </ul>
-                                <div className="tp-bannertimer"></div>
                             </div>
                         </div>
                         {/* <!-- slider revolution end --> */}
@@ -287,36 +272,45 @@ class Home extends React.Component {
                     <div className="container">
                         <div className="row justify-content-md-center">
                             <div className="col-lg-8">
-                                <h2 className="text-center mt-4">Core <strong>Features</strong></h2>
+                                <h2 className="text-center mt-4">Fast, Affordable Tablet and Cell Phone <strong>Repair.</strong></h2>
                                 <div className="separator"></div>
-                                <p className="large text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas facere vero ex tempora saepe perspiciatis ducimus sequi hello.</p>
+                                <p className="large text-center">Your gadgets play a major role in your professional, personal and school life. When your phone, tablet, or laptop breaks, you want an expert to handle the repair. That’s where we come in. With over a decade of experience in the electronics repair industry, MyWireless can get the job done quickly and effectively.</p>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-lg-4">
+                            <div className="col-lg-3">
                                 <div className="pv-30 ph-20 hc-item-box bordered hc-shadow text-center " data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-                                    <span className="icon default-bg circle"><i className="fa fa-diamond"></i></span>
-                                    <h3>asdasdasd &amp; elegant</h3>
+                                    <span className="icon default-bg circle"><i className="fa fa-check-circle"></i></span>
+                                    <h3>180 Days Warranty</h3>
                                     <div className="separator clearfix"></div>
-                                    <p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem ipsum dolor sit amet, consectetur.</p>
+                                    <p>We offer a 180 Days warranty on all our repairs. If the original repair fails because of a defect with a part we installed, we will replace the part at no charge.</p>
                                     <a href="page-services.html">Read More <i className="pl-1 fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-3">
                                 <div className="pv-30 ph-20 hc-item-box bordered hc-shadow text-center " data-animation-effect="fadeInDownSmall" data-effect-delay="150">
-                                    <span className="icon default-bg circle"><i className="fa fa-connectdevelop"></i></span>
-                                    <h3>Great Design</h3>
+                                    <span className="icon default-bg circle"><i className="fa fa-wrench"></i></span>
+                                    <h3>Expert Techs</h3>
                                     <div className="separator clearfix"></div>
-                                    <p>Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.</p>
+                                    <p>You only want the best technicians working on your electronic devices. Our highly skilled staff of technicians are true experts and will get your device working like new.</p>
                                     <a href="page-services.html">Read More <i className="pl-1 fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
+                            <div className="col-lg-3">
                                 <div className="pv-30 ph-20 hc-item-box bordered hc-shadow text-center " data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-                                    <span className="icon default-bg circle"><i className="fa fa fa-snowflake-o"></i></span>
-                                    <h3>Many Components</h3>
+                                    <span className="icon default-bg circle"><i className="fa fa fa-bolt"></i></span>
+                                    <h3>Same Day Repair</h3>
                                     <div className="separator clearfix"></div>
-                                    <p>Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.</p>
+                                    <p>Most repairs can be done same day, while you wait. We know how inconvenient a broken device can be, so we work quickly to fix the issues and get you connected back in.</p>
+                                    <a href="page-services.html">Read More <i className="pl-1 fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                            <div className="col-lg-3">
+                                <div className="pv-30 ph-20 hc-item-box bordered hc-shadow text-center " data-animation-effect="fadeInDownSmall" data-effect-delay="200">
+                                    <span className="icon default-bg circle"><i className="fa fa fa-hand-o-right"></i></span>
+                                    <h3>Free Diagnostics</h3>
+                                    <div className="separator clearfix"></div>
+                                    <p>We believe in a hassle free repair process. We diagnose your device for free. Once we determine what is needed for your repair, we will contact you with an obligation free repair quote. You can choose to continue with a repair, or not, the choice is always yours.</p>
                                     <a href="page-services.html">Read More <i className="pl-1 fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -332,7 +326,7 @@ class Home extends React.Component {
                                     <div class="row">
                                         <div class="col-lg-8">
                                             <h1 class="title">Don't Miss Out Our Offers</h1>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quasi explicabo consequatur consectetur, a atque voluptate officiis eligendi nostrum.</p>
+                                            <p>Take Advantage Of This Amazing Deal Before It Is Too Late. Spring 20% off Any Service</p>
                                         </div>
                                         <div class="col-lg-4">
                                             <br />
@@ -351,7 +345,7 @@ class Home extends React.Component {
                             <div class="col-lg-8">
                                 <h2 class="text-center mt-4">Why <strong>Choose</strong> Us</h2>
                             <div class="separator"></div>
-                            <p class="large text-center">Atque ducimus velit, earum quidem, iusto dolorem. Ex ipsam totam quas blanditiis, pariatur maxime ipsa iste, doloremque neque doloribus, error. Corrupti, tenetur.</p>
+                            <p class="large text-center">MyWireless offers iPhone Repair, iPad Repair, Smartphone Repair Services. Our store carries a range of accessories and protection plans for your gadgets. We carry refurbished smartphones, tablets, and computers. Get prepaid wireless plans to save you money on your wireless bill, pay your bills and refill your prepaid plans with gadget repair experts at MyWireless.com. Come see us today! No Appointment is needed! Most repairs are completed on the spot.</p>
                             <br />
                             </div>
                         </div>
@@ -459,477 +453,152 @@ class Home extends React.Component {
                     <div class="container">
                       <div class="row">
                         <div class="col-lg-6">
-                          <h2 class="mt-4">What We <strong>Offer</strong></h2>
+                          <h2 class="mt-4">What We <strong>Fix</strong></h2>
                           <div class="separator-2"></div>
-                          <p>Lorem ipsum dolor sit amet, lotrem <span class="text-default">some colored text</span>. Nulla explicabo <strong>attention to this</strong> blanditiis, ex cupiditate ipsam debitis rem.</p>
+                          <p>Don’t let damaged phones or tablets put a damper on your productivity. Here are some of things we fix:</p>
                           <ul class="list-icons">
-                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check-square-o"></i> 27 Predifined Home Pages</li>
-                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check-square-o"></i> 190+ HTML files</li>
-                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="fa fa-check-square-o"></i> Great Design</li>
+                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check-square-o"></i> Cracked Screen</li>
+                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check-square-o"></i> Water Damage</li>
+                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="fa fa-check-square-o"></i> Broken Button</li>
+                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></i> Dead Battery</li>
                             <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></i> Many more...</li>
                           </ul>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et eius aut nisi dolore ut.</p>
                           <a href="page-about.html" class="btn btn-default-transparent btn-animation btn-animation--slide-horizontal btn-lg"><i class="fa fa-users pr-2"></i>Learn More</a>
                         </div>
                         <div class="col-lg-6">
-                          <br />
-                          {/* <!-- Nav tabs --> */}
-                          <ul class="nav nav-tabs style-1" role="tablist">
-                            <li class="nav-item"><a class="nav-link active" href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-heart pr-2"></i>We Love</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#profile" aria-controls="profile" role="tab" data-toggle="tab">What</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#messages" aria-controls="messages" role="tab" data-toggle="tab">We Do</a></li>
-                          </ul>
-
-                          {/* <!-- Tab panes --> */}
-                          <div class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade show active" id="home">
-                              <div class="overlay-container overlay-visible">
-                                <img src="images/section-image-3.jpg" alt="" />
-                                <a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
-                                <div class="overlay-bottom hidden-xs">
-                                  <div class="text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nobis sunt, quae alias impedit ea molestias recusandae.
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="profile">
-                              <h3>Laudantium voluptas excepturi hic evenie</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tempore ipsam tenetur molestias eligendi provident! Itaque sapiente neque esse expedita voluptatibus qui officia, fuga          a tempora! Alias voluptate pariatur quo.</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptas excepturi hic eveniet deleniti, voluptate fugit quod sapiente ut nulla voluptates neque a rerum! Sed             dolores enim veniam, dolor minus.</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quos quidem amet sapiente praesentium unde, vel corrupti, vero dicta velit fuga ut at accusantium expedita inventore fugit           perferendis non reprehenderit.</p>
-                            </div>
-                            <div role="tabpanel" class="tab-pane fade" id="messages">
-                              <h3>Lorem ipsum dolor sit amet</h3>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptas excepturi hic eveniet deleniti, voluptate fugit quod sapiente ut nulla voluptates neque a rerum! Sed             dolores enim veniam, dolor minus.</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quos quidem amet sapiente praesentium unde, vel corrupti, vero dicta velit fuga ut at accusantium expedita inventore fugit           perferendis non reprehenderit.</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tempore ipsam tenetur molestias eligendi provident! Itaque sapiente neque esse expedita voluptatibus qui officia, fuga          a tempora! Alias voluptate pariatur quo.</p>
-                            </div>
+                          <h2 class="mt-4">Devices We <strong>Repair</strong></h2>
+                            <div class="separator-2"></div>
+                            <p>Whether your device is old or new, we'll get the job done. Some of the most common device we repair are:</p>
+                            <ul class="list-icons">
+                              <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check-square-o"></ i> IPhone Repair: iPhone X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, 6, 6 Plus, SE, 5s, 5c, 5, 4s </li>
+                              <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check-square-o"></ i> iPad Repair: iPad Pro 12.9" 9.7", iPad Air 2, iPad Air, iPad 2017, iPad Mini 4, iPad Mini 3, iPad Mini 2, iPad Mini, iPad 4, iPad 3, iPad 2</li>
+                              <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="fa fa-check-square-o"></ i> Samsung Repair: Galaxy S8, S8 Plus, S7, S7 Edge, S6, S6 Edge, S6 Edge Plus, S5, Note 8, Note 5, Note 4</li>
+                              <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></ i>Many more...</li>
+                              
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et   eius aut nisi dolore ut.</p>
+                            <a href="page-about.html" class="btn btn-default-transparent btn-animation btn-animation--slide-horizontal btn-lg"><i class="fa   fa-users pr-2"></i>Learn More</a>
                           </div>
-                        </div>
                       </div>
                     </div>
                     <br />
                 </section>
 
                 <section class="pv-30 light-gray-bg padding-bottom-clear">
-                    <div class="container">
-                      <div class="row justify-content-md-center">
-                        <div class="col-lg-8">
-                          <h2 class="text-center mt-4">Our <strong>Portfolio</strong></h2>
-                          <div class="separator"></div>
-                          <p class="large text-center">Atque ducimus velit, earum quidem, iusto dolorem. Ex ipsam totam quas blanditiis, pariatur maxime ipsa iste, doloremque neque doloribus, error. Corrupti, tenetur.</p>
-                          <br />
-                        </div>
-                      </div>
-                    </div>
+                    
                     <div class="space-bottom">
-                      <div class="slick-carousel carousel">
-                        <div class="image-box hc-shadow text-center">
-                          <div class="overlay-container">
-                            <img src="images/portfolio-1.jpg" alt="" />
-                            <div class="overlay-top">
-                              <div class="text">
-                                <h3><a href="portfolio-item.html">Project Title</a></h3>
-                                <p class="small">Lorem ipsum dolor sit amet.</p>
-                              </div>
-                            </div>
-                            <div class="overlay-bottom">
-                              <div class="links">
-                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="image-box hc-shadow text-center">
-                          <div class="overlay-container">
-                            <img src="images/portfolio-2.jpg" alt="" />
-                            <div class="overlay-top">
-                              <div class="text">
-                                <h3><a href="portfolio-item.html">Project Title</a></h3>
-                                <p class="small">Lorem ipsum dolor sit amet.</p>
-                              </div>
-                            </div>
-                            <div class="overlay-bottom">
-                              <div class="links">
-                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="image-box hc-shadow text-center">
-                          <div class="overlay-container">
-                            <img src="images/portfolio-3.jpg" alt="" />
-                            <div class="overlay-top">
-                              <div class="text">
-                                <h3><a href="portfolio-item.html">Project Title</a></h3>
-                                <p class="small">Lorem ipsum dolor sit amet.</p>
-                              </div>
-                            </div>
-                            <div class="overlay-bottom">
-                              <div class="links">
-                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="image-box hc-shadow text-center">
-                          <div class="overlay-container">
-                            <img src="images/portfolio-4.jpg" alt="" />
-                            <div class="overlay-top">
-                              <div class="text">
-                                <h3><a href="portfolio-item.html">Project Title</a></h3>
-                                <p class="small">Lorem ipsum dolor sit amet.</p>
-                              </div>
-                            </div>
-                            <div class="overlay-bottom">
-                              <div class="links">
-                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="image-box hc-shadow text-center">
-                          <div class="overlay-container">
-                            <img src="images/portfolio-5.jpg" alt="" />
-                            <div class="overlay-top">
-                              <div class="text">
-                                <h3><a href="portfolio-item.html">Project Title</a></h3>
-                                <p class="small">Lorem ipsum dolor sit amet.</p>
-                              </div>
-                            </div>
-                            <div class="overlay-bottom">
-                              <div class="links">
-                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="image-box hc-shadow text-center">
-                          <div class="overlay-container">
-                            <img src="images/portfolio-6.jpg" alt="" />
-                            <div class="overlay-top">
-                              <div class="text">
-                                <h3><a href="portfolio-item.html">Project Title</a></h3>
-                                <p class="small">Lorem ipsum dolor sit amet.</p>
-                              </div>
-                            </div>
-                            <div class="overlay-bottom">
-                              <div class="links">
-                                <a href="portfolio-item.html" class="btn btn-gray-transparent btn-animated">View Details <i class="pl-2 fa fa-arrow-right"></i></a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="slick-carousel content-slider">
                         <div>
-                          <div class="container">
-                            <div class="row justify-content-md-center">
-                              <div class="col-lg-8">
-                                <div class="testimonial text-center">
-                                  <div class="testimonial-image">
+                          <div className="container">
+                            <div className="row justify-content-md-center">
+                              <div className="col-lg-4">
+                                <div className="testimonial text-center">
+                                  <div className="testimonial-image">
                                     <img src="images/testimonial-1.jpg" alt="Famous Person" title="Famous Person" class="rounded-circle" />
                                   </div>
-                                  <h3 class="mt-3">Just Perfect!</h3>
-                                  <div class="separator"></div>
-                                  <div class="testimonial-body">
+                                  <h3 className="mt-3">Would highly recommend!</h3>
+                                  <div className="separator"></div>
+                                  <div className="testimonial-body">
                                     <blockquote>
-                                      <p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet            turpis augue a justo.</p>
+                                      <p>Heading out of the country for long term and we didn't want to have to pay a network's ridiculous monthly suspension fees. Was able to keep our number  and switch to an easy prepaid plan for when we are back in the states. Excellent customer service. Stayed open later than needed to help my husband out. Would highly recommend.</p>
                                     </blockquote>
-                                    <div class="testimonial-info-1">- Famous Person</div>
-                                    <div class="testimonial-info-2">By Company</div>
+                                    <div className="testimonial-info-1">Cindy H</div>
                                   </div>
                                 </div>
-                              </div>
                             </div>
-                          </div>
-                        </div>
-                        <div>
-                          <div class="container">
-                            <div class="row justify-content-md-center">
-                              <div class="col-lg-8">
-                                <div class="testimonial text-center">
-                                  <div class="testimonial-image">
+                            <div className="col-lg-4">
+                                <div className="testimonial text-center">
+                                  <div className="testimonial-image">
                                     <img src="images/testimonial-2.jpg" alt="Famous Person" title="Famous Person" class="rounded-circle" />
                                   </div>
-                                  <h3 class="mt-3">Amazing!</h3>
-                                  <div class="separator"></div>
-                                  <div class="testimonial-body">
+                                  <h3 className="mt-3">Efficient service!</h3>
+                                  <div className="separator"></div>
+                                  <div className="testimonial-body">
                                     <blockquote>
-                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate deleniti ratione in. Expedita nemo, quisquam, fuga adipisci omnis ad mollitia libero culpa nostrum est             quia eos esse vel!</p>
+                                      <p>Really great and efficient service. The owner, Hung, will change your screen at a great price and very fast. He fixed my iPhone 8 screen in 1 hour and I'm very happy I found this place. I have a trustworthy place to go whenever my iPhone screen breaks. I recommend this place to anyone who's looking to get their screen fixed!</p>
                                     </blockquote>
-                                    <div class="testimonial-info-1">- Famous Person</div>
-                                    <div class="testimonial-info-2">By Company</div>
+                                    <div className="testimonial-info-1">Dom N</div>
                                   </div>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="container">
-                        <div class="clients-container">
-                          <div class="clients">
-                            <div class="client-image" data-animation-effect="fadeIn" data-effect-delay="100">
-                              <a href="#"><img src="images/client-1.png" alt="" /></a>
-                            </div>
-                            <div class="client-image" data-animation-effect="fadeIn" data-effect-delay="200">
-                              <a href="#"><img src="images/client-2.png" alt="" /></a>
-                            </div>
-                            <div class="client-image" data-animation-effect="fadeIn" data-effect-delay="300">
-                              <a href="#"><img src="images/client-3.png" alt="" /></a>
-                            </div>
-                            <div class="client-image" data-animation-effect="fadeIn" data-effect-delay="400">
-                              <a href="#"><img src="images/client-4.png" alt="" /></a>
-                            </div>
-                            <div class="client-image" data-animation-effect="fadeIn" data-effect-delay="500">
-                              <a href="#"><img src="images/client-5.png" alt="" /></a>
-                            </div>
-                            <div class="client-image" data-animation-effect="fadeIn" data-effect-delay="600">
-                              <a href="#"><img src="images/client-6.png" alt=""/></a>
-                            </div>
-                            <div class="client-image" data-animation-effect="fadeIn" data-effect-delay="700">
-                              <a href="#"><img src="images/client-7.png" alt="" /></a>
-                            </div>
-                            <div class="client-image" data-animation-effect="fadeIn" data-effect-delay="800">
-                              <a href="#"><img src="images/client-8.png" alt="" /></a>
-                            </div>
+                              <div className="col-lg-4">
+                                <div className="testimonial text-center">
+                                  <div className="testimonial-image">
+                                    <img src="images/testimonial-3.jpg" alt="Famous Person" title="Famous Person" class="rounded-circle" />
+                                  </div>
+                                  <h3 className="mt-3">Very knowledgeable!</h3>
+                                  <div className="separator"></div>
+                                  <div className="testimonial-body">
+                                    <blockquote>
+                                      <p>Hung is very knowledgeable and has great customer service skills. I loved that it was such quick turnaround time. Even though i don't wish shattered screens on anyone, if it happens, i highly recommend bringing your phone here for quick and affordable fix!</p>
+                                    </blockquote>
+                                    <div className="testimonial-info-1">Lisa N</div>
+                                  </div>
+                                </div>
+                              </div>
                           </div>
                         </div>
                       </div>
                     </div>
                 </section>
 
-                <section class="pv-40 stats padding-bottom-clear dark-translucent-bg hovered background-img-7" style={{backgroundposition: "50% 50%"}}>
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="col-lg-3 col-6 text-center">
-                          <div class="hc-item-box" data-animation-effect="fadeIn" data-effect-delay="300">
-                            <span class="icon dark-bg large circle"><i class="fa fa-diamond"></i></span>
-                            <h3><strong>Projects</strong></h3>
-                            <span class="counter">1525</span>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-6 text-center">
-                          <div class="hc-item-box " data-animation-effect="fadeIn" data-effect-delay="300">
-                            <span class="icon dark-bg large circle"><i class="fa fa-users"></i></span>
-                            <h3><strong>Clients</strong></h3>
-                            <span class="counter">1225</span>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-6 text-center">
-                          <div class="hc-item-box" data-animation-effect="fadeIn" data-effect-delay="300">
-                            <span class="icon dark-bg large circle"><i class="fa fa-cloud-download"></i></span>
-                            <h3><strong>Downloads</strong></h3>
-                            <span class="counter">6532</span>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-6 text-center">
-                          <div class="hc-item-box" data-animation-effect="fadeIn" data-effect-delay="300">
-                            <span class="icon dark-bg large circle"><i class="fa fa-share"></i></span>
-                            <h3><strong>Sherot</strong></h3>
-                            <span class="counter">15002</span>
-                          </div>
-                        </div>            
-                      </div>
-                    </div>
-                    {/* <!-- footer top start --> */}
-                    {/* <!-- ================ --> */}
-                    <div class="footer-top animated-text" style={{backgroundColor: "rgba(0,0,0,0.3)"}}>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-md-12">
-                            <div class="call-to-action text-center">
-                              <div class="row">
-                                <div class="col-md-8">
-                                  <h2 class="mt-4">Powerful Bootstrap Template</h2>
-                                  <h2 class="mt-4">Waste no more time</h2>
-                                </div>
-                                <div class="col-md-4">
-                                  <p class="mt-3"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">Purchase<i class="fa fa-cart-arrow-down pl-20"></i></a></p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    {/* <!-- footer top end --> */}
-                </section>
+                
 
                 {/* <!-- footer start (Add "dark" class to #footer in order to enable dark footer) --> */}
       {/* <!-- ================ --> */}
-      <footer id="footer" class="clearfix ">
+      <footer id="footer" class="clearfix">
 
-        {/* <!-- .footer start --> */}
-        {/* <!-- ================ --> */}
-        <div class="footer">
+        <div class="footer" style={{backgroundColor: "white"}}>
           <div class="container">
             <div class="footer-inner">
               <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-6">
                   <div class="footer-content">
                     <div class="logo-footer"><img id="logo-footer" src="images/logo_light_blue.png" alt="" /></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus illo vel dolorum soluta consectetur doloribus sit. Delectus non tenetur odit dicta vitae debitis suscipit doloribus. Ipsa, aut voluptas quaerat... <a href="page-about.html">Learn More<i class="fa fa-long-arrow-right pl-1"></i></a></p>
+                    <p>Contact Us Today</p>
+                    <ul class="list-inline mb-20">
+                      <li class="list-inline-item"><i class="text-default fa fa-map-marker pr-1"></i>8892 Bolsa Ave Westminster, CA 92683</li>
+                      <li class="list-inline-item"><i class="text-default fa fa-phone pl-10 pr-1"></i> (714) 892-8588</li>
+                      <li class="list-inline-item"><a href="#" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-1"></i> hello@MyWireless.com</a></li>
+                    </ul>
                     <div class="separator-2"></div>
-                    <nav>
-                      <ul class="nav flex-column">
-                        <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Lorem</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page-about.html">About</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="footer-content">
-                    <h2 class="title">Latest From Blog</h2>
-                    <div class="separator-2"></div>
-                    <div class="media margin-clear">
-                      <div class="d-flex pr-2">
-                        <div class="overlay-container">
-                          <img class="media-object" src="images/blog-thumb-1.jpg" alt="blog-thumb" />
-                          <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-                        </div>
-                      </div>
-                      <div class="media-body">
-                        <h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-                        <p class="small margin-clear"><i class="fa fa-calendar pr-2"></i>Mar 23, 2017</p>
-                      </div>
-                    </div>
-                    <hr />
-                    <div class="media margin-clear">
-                      <div class="d-flex pr-2">
-                        <div class="overlay-container">
-                          <img class="media-object" src="images/blog-thumb-2.jpg" alt="blog-thumb" />
-                          <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-                        </div>
-                      </div>
-                      <div class="media-body">
-                        <h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-                        <p class="small margin-clear"><i class="fa fa-calendar pr-2"></i>Mar 22, 2017</p>
-                      </div>
-                    </div>
-                    <hr />
-                    <div class="media margin-clear">
-                      <div class="d-flex pr-2">
-                        <div class="overlay-container">
-                          <img class="media-object" src="images/blog-thumb-3.jpg" alt="blog-thumb" />
-                          <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-                        </div>
-                      </div>
-                      <div class="media-body">
-                        <h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-                        <p class="small margin-clear"><i class="fa fa-calendar pr-2"></i>Mar 21, 2017</p>
-                      </div>
-                    </div>
-                    <hr />
-                    <div class="media margin-clear">
-                      <div class="d-flex pr-2">
-                        <div class="overlay-container">
-                          <img class="media-object" src="images/blog-thumb-4.jpg" alt="blog-thumb" />
-                          <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-                        </div>
-                      </div>
-                      <div class="media-body">
-                        <h6 class="media-heading"><a href="blog-post.html">Lorem ipsum dolor sit amet...</a></h6>
-                        <p class="small margin-clear"><i class="fa fa-calendar pr-2"></i>Mar 21, 2017</p>
-                      </div>
-                    </div>
-                    <div class="text-right space-top">
-                      <a href="blog-large-image-right-sidebar.html" class="link-dark"><i class="fa fa-plus-circle pl-1 pr-1"></i>More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="footer-content">
-                    <h2 class="title">Portfolio Gallery</h2>
-                    <div class="separator-2"></div>
-                    <div class="row grid-space-10">
-                      <div class="col-4 col-lg-6">
-                        <div class="overlay-container mb-10">
-                          <img src="images/gallery-1.jpg" alt="" />
-                          <a href="portfolio-item.html" class="overlay-link small">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-4 col-lg-6">
-                        <div class="overlay-container mb-10">
-                          <img src="images/gallery-2.jpg" alt="" />
-                          <a href="portfolio-item.html" class="overlay-link small">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-4 col-lg-6">
-                        <div class="overlay-container mb-10">
-                          <img src="images/gallery-3.jpg" alt="" />
-                          <a href="portfolio-item.html" class="overlay-link small">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-4 col-lg-6">
-                        <div class="overlay-container mb-10">
-                          <img src="images/gallery-4.jpg" alt="" />
-                          <a href="portfolio-item.html" class="overlay-link small">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-4 col-lg-6">
-                        <div class="overlay-container mb-10">
-                          <img src="images/gallery-5.jpg" alt="" />
-                          <a href="portfolio-item.html" class="overlay-link small">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div class="col-4 col-lg-6">
-                        <div class="overlay-container mb-10">
-                          <img src="images/gallery-6.jpg" alt="" />
-                          <a href="portfolio-item.html" class="overlay-link small">
-                            <i class="fa fa-link"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="text-right space-top">
-                      <a href="portfolio-grid-2-3-col.html" class="link-dark"><i class="fa fa-plus-circle pl-1 pr-1"></i>More</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3">
-                  <div class="footer-content">
-                    <h2 class="title">Find Us</h2>
-                    <div class="separator-2"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium odio voluptatem necessitatibus illo vel dolorum soluta.</p>
-                    <ul class="social-links circle animated-effect-1">
+                    <ul class="social-links circle margin-clear animated-effect-1">
+                      <li class="instagram"><a href="https://www.yelp.com/biz/my-wireless-westminster-3" target="_blank"><i class="fa fa-yelp"></i></a></li>
                       <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
                       <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
                       <li class="googleplus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                      <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                      <li class="xing"><a href="#"><i class="fa fa-xing"></i></a></li>
+                      <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
                     </ul>
-                    <div class="separator-2"></div>
-                    <ul class="list-icons">
-                      <li><i class="fa fa-map-marker pr-2 text-default"></i> Street Address No, City</li>
-                      <li><i class="fa fa-phone pr-2 text-default"></i> +00 1234567890</li>
-                      <li><a href="#"><i class="fa fa-envelope-o pr-2"></i>example@your_domain.com</a></li>
-                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="footer-content">
+                    <h2 class="title">Contact Us</h2>
+                    <form class="margin-clear" method="POST" action="https://formspree.io/hung@pagetek.com ">
+                      <div class="form-group has-feedback mb-10">
+                        <label class="sr-only" for="name2">Name</label>
+                        <input type="text" class="form-control" id="name2" placeholder="Name" required />
+                        <i class="fa fa-user form-control-feedback"></i>
+                      </div>
+                      <div class="form-group has-feedback mb-10">
+                        <label class="sr-only" for="email2">Email address</label>
+                        <input type="email" class="form-control" id="email2" placeholder="Enter email" required />
+                        <i class="fa fa-envelope form-control-feedback"></i>
+                      </div>
+                      <div class="form-group has-feedback mb-10">
+                        <label class="sr-only" for="message2">Message</label>
+                        <textarea class="form-control" rows="4" id="message2" placeholder="Message" required></textarea>
+                        <i class="fa fa-pencil form-control-feedback"></i>
+                      </div>
+                      <input type="submit" value="Send" class="margin-clear submit-button btn btn-default" />
+                    </form>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* <!-- .footer end --> */}
 
-        {/* <!-- .subfoo/ter start --> */}
-        {/* <!-- ================ --> */}
         <div class="subfooter">
           <div class="container">
             <div class="subfooter-inner">
@@ -944,7 +613,6 @@ class Home extends React.Component {
         {/* <!-- .subfooter end --> */}
 
       </footer>
-      {/* <!-- footer end --></div> */}
 
 
 
