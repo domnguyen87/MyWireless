@@ -147,7 +147,7 @@ class Header extends React.Component {
                           {/* <!-- mega-menu end --> */}
                           {/* <!-- mega-menu start --> */}
                           <li className="nav-item dropdown  mega-menu mega-menu--wide">
-                          <a href="/" className="nav-link">Repairs</a>
+                          <a href="#footer" className="nav-link ">Repairs</a>
                             {/* <ul className="dropdown-menu" aria-labelledby="second-dropdown">
                               <li>
                                 <div className="row">
@@ -319,7 +319,7 @@ class Header extends React.Component {
                           </li>
                           {/* <!-- mega-menu start --> */}
                           <li className="nav-item dropdown  mega-menu mega-menu--narrow">
-                            <a href="/" className="nav-link">Contact Us</a>
+                            <a href="#footer" className="nav-link smooth-scroll moving">Contact Us</a>
                             {/* <ul className="dropdown-menu" aria-labelledby="fourth-dropdown">
                               <li>
                                 <div className="row">
@@ -496,6 +496,9 @@ class Header extends React.Component {
                     </div> */}
                     <div className="btn-group">
                       <button type="button" className="btn dropdown-toggle dropdown-toggle--no-caret" id="header-drop-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fa fa-shopping-basket"></i><span className="cart-count default-bg">8</span></button>
+                    </div>
+                    <div className="btn-group">
+                      <a className="nav-link" >(714) 892-8588</a>
                     </div>
                   </div>
                 </div>

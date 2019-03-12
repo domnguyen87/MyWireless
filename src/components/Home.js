@@ -19,7 +19,7 @@ class Home extends React.Component {
                                 <ul className="slides">
                                     {/* <!-- slide 1 start --> */}
                                     {/* <!-- ================ --> */}
-                                    <li className="text-center" data-transition="crossfade" data-slotamount="default" data-masterspeed="default" data-title="Slide Title">
+                                    <li className="text-center" data-transition="crossfade" data-slotamount="default" data-masterspeed="default" data-title="Slide Title" data-delay="12000">
 
                                         {/* <!-- main image --> */}
                                         <img src="images/slider-fullscreen-slide-1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" className="rev-slidebg" />
@@ -110,7 +110,7 @@ class Home extends React.Component {
                                             data-end="9100"
                                             data-transform_idle="o:1;"
                                             data-transform_in="x:[50%];y:0;o:0;s:700;e:Power4.easeInOut;"
-                                            data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span className="icon large circle"><i className="circle fa fa-lightbulb-o"></i></span>
+                                            data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span className="icon large circle"><i className="circle fa fa-wrench"></i></span>
                                         </div>
 
                                         {/* <!-- LAYER NR. 6 --> */}
@@ -121,7 +121,7 @@ class Home extends React.Component {
                                             data-end="9100"
                                             data-transform_idle="o:1;"
                                             data-transform_in="x:[-50%];y:0;o:0;s:700;e:Power4.easeInOut;"
-                                            data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span className="icon large circle"><i className="circle fa fa-rotate-left"></i></span>
+                                            data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span className="icon large circle"><i className="circle fa fa-usd"></i></span>
                                         </div>
 
                                         {/* <!-- LAYER NR. 7 --> */}
@@ -133,7 +133,7 @@ class Home extends React.Component {
                                             data-end="9100"
                                             data-transform_idle="o:1;"
                                             data-transform_in="x:[50%];y:0;o:0;s:700;e:Power4.easeInOut;"
-                                            data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span className="icon large circle"><i className="circle fa fa-line-chart"></i></span>
+                                            data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span className="icon large circle"><i className="circle fa fa-bolt"></i></span>
                                         </div>
 
                                         {/* <!-- LAYER NR. 8 --> */}
@@ -141,7 +141,7 @@ class Home extends React.Component {
                                             data-x="center"
                                             data-y="210"
                                             data-start="9100"
-                                            data-end="10000"
+                                            data-end="13000"
                                             data-transform_idle="o:1;"
                                             data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
                                             data-transform_out="y:0;s:1000;e:Power2.easeInOut;"><div className="separator light"></div>
@@ -156,7 +156,8 @@ class Home extends React.Component {
                                             data-transform_in="y:[-50%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
                                             data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
                                             data-mask_in="x:0px;y:[-50%];s:inherit;e:inherit;"
-                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br /> Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br /> tenetur fugiat dolorum sapiente eligendi...</div>
+                                            data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Orange County’s #1 Trusted 
+                                            Cell Phone Repair Shop</div>
 
                                         {/* <!-- LAYER NR. 10 --> */}
                                         <div className="tp-caption"
@@ -281,9 +282,9 @@ class Home extends React.Component {
                             <div className="col-lg-3">
                                 <div className="pv-30 ph-20 hc-item-box bordered hc-shadow text-center " data-animation-effect="fadeInDownSmall" data-effect-delay="100">
                                     <span className="icon default-bg circle"><i className="fa fa-check-circle"></i></span>
-                                    <h3>180 Days Warranty</h3>
+                                    <h3>LifeTime Warranty</h3>
                                     <div className="separator clearfix"></div>
-                                    <p>We offer a 180 Days warranty on all our repairs. If the original repair fails because of a defect with a part we installed, we will replace the part at no charge.</p>
+                                    <p>We offer a LifeTime  warranty on all our repairs. If the original repair fails because of a defect with a part we installed, we will replace the part at no charge.</p>
                                     <a href="page-services.html">Read More <i className="pl-1 fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -330,7 +331,7 @@ class Home extends React.Component {
                                         </div>
                                         <div class="col-lg-4">
                                             <br />
-                                            <p><a href="#" class="btn btn-lg btn-gray-transparent btn-animated">Learn More<i class="fa fa-arrow-right pl-20"></i></a></p>
+                                            {/* <p><a href="#" class="btn btn-lg btn-gray-transparent btn-animated">Learn More<i class="fa fa-arrow-right pl-20"></i></a></p> */}
                                         </div>
                                     </div>
                                 </div>
@@ -392,7 +393,7 @@ class Home extends React.Component {
                                             Cras sit amet nibh libero. Nulla vel metus scelerisque.
                                         </div>
                                     </div>
-                                    <p><a href="page-services.html" class="btn btn-default-transparent btn-animated">Learn More <i class="fa fa-arrow-right pl-10"></i></a></p>
+                                    {/* <p><a href="page-services.html" class="btn btn-default-transparent btn-animated">Learn More <i class="fa fa-arrow-right pl-10"></i></a></p> */}
                                 </div>
                                 </div>
                             </div>
@@ -435,7 +436,7 @@ class Home extends React.Component {
                                                 </a>
                                             </div>
                                         </div>
-                                        <p><a href="page-services.html" class="btn btn-default-transparent btn-animated">Learn More <i class="fa fa-arrow-right pl-10"></i></a></p>
+                                        {/* <p><a href="page-services.html" class="btn btn-default-transparent btn-animated">Learn More <i class="fa fa-arrow-right pl-10"></i></a></p> */}
                                     </div>
                                     <div class="col-lg-6">
                                         <img src="images/section-image-2.png" alt="" />
@@ -452,33 +453,42 @@ class Home extends React.Component {
                 <section class="pv-30">
                     <div class="container">
                       <div class="row">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 row">
                           <h2 class="mt-4">What We <strong>Fix</strong></h2>
                           <div class="separator-2"></div>
                           <p>Don’t let damaged phones or tablets put a damper on your productivity. Here are some of things we fix:</p>
-                          <ul class="list-icons">
-                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check-square-o"></i> Cracked Screen</li>
-                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check-square-o"></i> Water Damage</li>
-                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="fa fa-check-square-o"></i> Broken Button</li>
-                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></i> Dead Battery</li>
-                            <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></i> Many more...</li>
+                          <div className='col-lg-6'>
+                               <ul class="list-icons ">
+                            <li data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check-square-o"></i> Cracked Screen</li>
+                            <li data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check-square-o"></i> Water Damage</li>
+                            <li data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="fa fa-check-square-o"></i> Broken Button</li>
+                            <li data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></i> Camera Repair</li>
+                            <li data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></i> Speaker Not Working.</li>
+                            <li data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></i> No Signal</li>
                           </ul>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et eius aut nisi dolore ut.</p>
-                          <a href="page-about.html" class="btn btn-default-transparent btn-animation btn-animation--slide-horizontal btn-lg"><i class="fa fa-users pr-2"></i>Learn More</a>
+                          </div>
+                          <div className='col-lg-6'>
+                               <ul class="list-icons ">
+                            <li data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check-square-o"></i> Motherboard Repair</li>
+                            <li data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check-square-o"></i> Dead Battery</li>
+                          </ul>
+                          </div>
+                          {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et eius aut nisi dolore ut.</p>
+                          <a href="page-about.html" class="btn btn-default-transparent btn-animation btn-animation--slide-horizontal btn-lg"><i class="fa fa-users pr-2"></i>Learn More</a> */}
                         </div>
                         <div class="col-lg-6">
                           <h2 class="mt-4">Devices We <strong>Repair</strong></h2>
                             <div class="separator-2"></div>
                             <p>Whether your device is old or new, we'll get the job done. Some of the most common device we repair are:</p>
                             <ul class="list-icons">
-                              <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check-square-o"></ i> IPhone Repair: iPhone X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, 6, 6 Plus, SE, 5s, 5c, 5, 4s </li>
-                              <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check-square-o"></ i> iPad Repair: iPad Pro 12.9" 9.7", iPad Air 2, iPad Air, iPad 2017, iPad Mini 4, iPad Mini 3, iPad Mini 2, iPad Mini, iPad 4, iPad 3, iPad 2</li>
-                              <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="fa fa-check-square-o"></ i> Samsung Repair: Galaxy S8, S8 Plus, S7, S7 Edge, S6, S6 Edge, S6 Edge Plus, S5, Note 8, Note 5, Note 4</li>
-                              <li class="hc-element-invisible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></ i>Many more...</li>
+                              <li  data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="fa fa-check-square-o"></ i> IPhone Repair: iPhone X, 8, 8 Plus, 7, 7 Plus, 6s, 6s Plus, 6, 6 Plus, SE, 5s, 5c, 5, 4s </li>
+                              <li  data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="fa fa-check-square-o"></ i> iPad Repair: iPad Pro 12.9" 9.7", iPad Air 2, iPad Air, iPad 2017, iPad Mini 4, iPad Mini 3, iPad Mini 2, iPad Mini, iPad 4, iPad 3, iPad 2</li>
+                              <li  data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="fa fa-check-square-o"></ i> Samsung Repair: Galaxy S8, S8 Plus, S7, S7 Edge, S6, S6 Edge, S6 Edge Plus, S5, Note 8, Note 5, Note 4</li>
+                              <li  data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="fa fa-check-square-o"></ i>Many more...</li>
                               
                             </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et   eius aut nisi dolore ut.</p>
-                            <a href="page-about.html" class="btn btn-default-transparent btn-animation btn-animation--slide-horizontal btn-lg"><i class="fa   fa-users pr-2"></i>Learn More</a>
+                            {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et   eius aut nisi dolore ut.</p>
+                            <a href="page-about.html" class="btn btn-default-transparent btn-animation btn-animation--slide-horizontal btn-lg"><i class="fa   fa-users pr-2"></i>Learn More</a> */}
                           </div>
                       </div>
                     </div>
@@ -613,10 +623,6 @@ class Home extends React.Component {
         {/* <!-- .subfooter end --> */}
 
       </footer>
-
-
-
-                
 
             </React.Fragment>
                         )
