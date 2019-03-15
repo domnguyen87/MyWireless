@@ -208,7 +208,7 @@ class Home extends React.Component {
                                         {/* <!-- LAYER NR. 2 --> */}
                                         <div className="tp-caption medium_white"
                                             data-x="right"
-                                            data-y="240"
+                                            data-y="220"
                                             data-speed="500"
                                             data-start="1200"
                                             data-transform_idle="o:1;"
@@ -221,7 +221,7 @@ class Home extends React.Component {
                                         {/* <!-- LAYER NR. 3 --> */}
                                         <div className="tp-caption medium_white"
                                             data-x="right"
-                                            data-y="300"
+                                            data-y="340"
                                             data-speed="500"
                                             data-start="1400"
                                             data-transform_idle="o:1;"
@@ -234,7 +234,7 @@ class Home extends React.Component {
                                         {/* <!-- LAYER NR. 4 --> */}
                                         <div className="tp-caption medium_white"
                                             data-x="right"
-                                            data-y="360"
+                                            data-y="460"
                                             data-speed="500"
                                             data-start="1600"
                                             data-transform_idle="o:1;"
@@ -247,7 +247,7 @@ class Home extends React.Component {
                                         {/* <!-- LAYER NR. 5 --> */}
                                         <div className="tp-caption medium_white"
                                             data-x="right"
-                                            data-y="420"
+                                            data-y="580"
                                             data-speed="500"
                                             data-start="1800"
                                             data-transform_idle="o:1;"
@@ -453,7 +453,7 @@ class Home extends React.Component {
                 <section class="pv-30">
                     <div class="container">
                       <div class="row">
-                        <div class="col-lg-6 row">
+                        <div class="col-lg-6">
                           <h2 class="mt-4">What We <strong>Fix</strong></h2>
                           <div class="separator-2"></div>
                           <p>Don’t let damaged phones or tablets put a damper on your productivity. Here are some of things we fix:</p>
@@ -569,7 +569,7 @@ class Home extends React.Component {
                     <ul class="list-inline mb-20">
                       <li class="list-inline-item"><i class="text-default fa fa-map-marker pr-1"></i>8892 Bolsa Ave Westminster, CA 92683</li>
                       <li class="list-inline-item"><i class="text-default fa fa-phone pl-10 pr-1"></i> (714) 892-8588</li>
-                      <li class="list-inline-item"><a href="#" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-1"></i> hello@MyWireless.com</a></li>
+                      <li class="list-inline-item"><a href="#" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-1"></i>hello@MyWireless.com</a></li>
                     </ul>
                     <div class="separator-2"></div>
                     <ul class="social-links circle margin-clear animated-effect-1">
