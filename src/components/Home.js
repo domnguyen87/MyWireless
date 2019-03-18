@@ -325,14 +325,14 @@ class Home extends React.Component {
                             <div class="col-12">
                                 <div class="call-to-action text-center">
                                     <div class="row">
-                                        <div class="col-lg-8">
+                                        <div class="col-lg-12">
                                             <h1 class="title">Don't Miss Out Our Offers</h1>
                                             <p>Take Advantage Of This Amazing Deal Before It Is Too Late. Spring 20% off Any Service</p>
                                         </div>
-                                        <div class="col-lg-4">
+                                        {/* <div class="col-lg-4">
                                             <br />
-                                            {/* <p><a href="#" class="btn btn-lg btn-gray-transparent btn-animated">Learn More<i class="fa fa-arrow-right pl-20"></i></a></p> */}
-                                        </div>
+                                            <p><a href="#" class="btn btn-lg btn-gray-transparent btn-animated">Learn More<i class="fa fa-arrow-right pl-20"></i></a></p>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -447,8 +447,6 @@ class Home extends React.Component {
                         </div>
                 </section>
 
-                <section class="light-gray-bg pv-20">
-                </section>
 
                 <section class="pv-30">
                     <div class="container">
