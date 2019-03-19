@@ -563,7 +563,7 @@ class Home extends React.Component {
                 <div class="col-lg-6">
                   <div class="footer-content">
                     <div class="logo-footer"><img id="logo-footer" src="images/logo_light_blue.png" alt="" /></div>
-                    <p>Contact Us Today</p>
+                    <p>Contact Us Today!</p>
                     <ul class="list-inline mb-20">
                       <li class="list-inline-item"><i class="text-default fa fa-map-marker pr-1"></i>8892 Bolsa Ave Westminster, CA 92683</li>
                       <li class="list-inline-item"><i class="text-default fa fa-phone pl-10 pr-1"></i> (714) 892-8588</li>
