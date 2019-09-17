@@ -140,7 +140,7 @@ class Home extends React.Component {
                                         <div className="tp-caption tp-resizeme large_white"
                                             data-x="center"
                                             data-y="210"
-                                            data-start="9100"
+                                            data-start="9200"
                                             data-end="13000"
                                             data-transform_idle="o:1;"
                                             data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
