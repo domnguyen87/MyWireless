@@ -498,7 +498,7 @@ class Header extends React.Component {
                       <button type="button" className="btn dropdown-toggle dropdown-toggle--no-caret" id="header-drop-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fa fa-shopping-basket"></i><span className="cart-count default-bg">8</span></button>
                     </div>
                     <div className="btn-group">
-                      <a className="nav-link" >(714) 892-8588</a>
+                      <a className="nav-link" >(714) 892-6698</a>
                     </div>
                   </div>
                 </div>
